@@ -1,0 +1,144 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+body {
+  min-width: 1080px;
+}
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-top: solid 6px yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 1.2rem;
+  width: 100%;
+  min-width: 1080px;
+}
+.header__title {
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  clear: both;
+}
+.menu {
+  float: right;
+}
+.menu__item {
+  float: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 20px 20px 10px 20px;
+}
+.menu__item:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.top {
+  height: 620px;
+  width: 100%;
+  position: relative;
+  background: url(./images/asobousai_top_twice.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.top img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.general {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.general__concept {
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+.general__catchcopy {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.general__description {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1.7rem;
+}
+.date {
+  margin-top: 30px;
+}
+.date__title {
+  color: #666;
+  font-weight: normal;
+  font-size: 1.7rem;
+}
+
+.date__detail {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.general__goDetail {
+  width: 90%;
+  min-width: 1080px;
+  color: #2A9CC9;
+  font-size: 1.7rem;
+  display: block;
+  text-align: right;
+  padding-right: 50px;
+  text-decoration: underline;
+}
+
+.program {
+  background: url(./images/backbround_pattern.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center center;
+}
+.event {
+  width: 80%;
+  margin: 0 auto;
+}
+.event__title {
+  padding-top: 20px;
+}
+.event__contents {
+  margin-top: 5px;
+}
+.contents {
+  display: inline-block;
+  background: #fff;
+  width: 30%;
+}
+.contents:first-child {
+  margin-right: 4.5%;
+}
+.contents:last-child {
+  margin-left: 4.5%;
+}
+.booth {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.booth__title {
+  padding-top: 20px;
+}
