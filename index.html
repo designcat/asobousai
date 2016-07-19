@@ -5,8 +5,10 @@
     <title>遊ぼう祭2016</title>
     <link rel="stylesheet" href="./normalize.css" type="text/css" />
     <link rel="stylesheet" href="./style.css" type="text/css" />
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="./main.js"></script>
   </head>
-  <body>
+  <body onload="initialize();">
     <header>
       <h1 class="header__title">
         下田遊ぼう祭2016
@@ -58,17 +60,17 @@
         <div class="event__contents">
           <ul>
             <li class="contents">
-              <img class="contents__thumbnail" src="" />
+              <img class="contents__thumbnail" src="./images/petapeta.png" />
               <p class="contents__title">PetaPeta × 防災</p>
               <p class="contents__owner">DesignCat Inc.</p>
             </li>
             <li class="contents">
-              <img class="contents__thumbnail" src="" />
-              <p class="contents__title">ツママレプロジェクト「キツネをさがせ」</p>
+              <img class="contents__thumbnail tsumamare" src="./images/fox.png" />
+              <p class="contents__title tsumamare">ツママレプロジェクト「キツネをさがせ」</p>
               <p class="contents__owner">明治大学</p>
             </li>
             <li class="contents">
-              <img class="contents__thumbnail" src="" />
+              <img class="contents__thumbnail" src="./images/deco.png" />
               <p class="contents__title">すごい災害訓練 DECO</p>
               <p class="contents__owner">NPO法人 伊能社中</p>
             </li>
@@ -85,17 +87,17 @@
         <div class="booth__contents">
           <ul>
             <li class="contents">
-              <img class="contents__thumbnail" src="" />
+              <img class="contents__thumbnail" src="./images/nigemap.jpg" />
               <p class="contents__title">逃げ地図作成ワークショップ</p>
               <p class="contents__owner">明治大学</p>
             </li>
             <li class="contents">
-              <img class="contents__thumbnail" src="" />
+              <img class="contents__thumbnail" src="./images/dronebird.jpg" />
               <p class="contents__title">DRONEBIRD</p>
               <p class="contents__owner">NPO法人 Crisis Mappers Japan</p>
             </li>
             <li class="contents">
-              <img class="contents__thumbnail" src="" />
+              <img class="contents__thumbnail" src="./images/mappingparty.png" />
               <p class="contents__title">マッピングパーティー</p>
               <p class="contents__owner">NPO法人 Crisis Mappers Japan</p>
             </li>
@@ -111,10 +113,10 @@
     </div>
     <section class="access">
       <div class="access__title">
-        <img src="./images/asobousai_access.png" />
+        <img src="./images/asobousai_access.png" alt="アクセス"/>
       </div>
       <div class="access__contents">
-
+        <div id="map_canvas" style="width:100%;height:350px;"></div>
       </div>
       <p class="access__goDetail">
         ▶ 詳しいアクセス情報を見る

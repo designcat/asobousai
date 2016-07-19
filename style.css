@@ -134,11 +134,118 @@ header {
 .contents:last-child {
   margin-left: 4.5%;
 }
+.contents__title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.tsumamare {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+
+.contents__owner {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px 20px 10px 0;
+}
+
+.event__goDetail {
+  width: 90%;
+  min-width: 1080px;
+  color: #E0201A;
+  font-size: 1.7rem;
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 50px;
+  text-decoration: underline;
+}
+
 .booth {
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .booth__title {
-  padding-top: 20px;
+  margin-top: 5px;
+}
+
+.booth__contents {
+  padding-top:5px;
+}
+.booth__goDetail {
+  width: 90%;
+  min-width: 1080px;
+  color: #E0201A;
+  font-size: 1.7rem;
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 50px;
+  text-decoration: underline;
+}
+
+.contents__thumbnail {
+  width: 90%;
+  height: 180px;
+  padding: 5%;
+}
+
+.joinEvent {
+  background-color: #E0201A;
+  font-size: 2rem;
+  font-weight: normal;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  text-decoration: underline;
+}
+
+.access {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.access__title {
+  margin-bottom: 20px;
+}
+
+.access__goDetail {
+  width: 90%;
+  min-width: 1080px;
+  color: #2A9CC9;
+  font-size: 1.7rem;
+  display: block;
+  text-align: right;
+  padding-right: 50px;
+  text-decoration: underline;
+}
+
+.sponsor {
+  width: 80%;
+  min-width: 1080px;
+  background-color: #E6E6E6;
+  color: #999999;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+footer {
+  width: 100%;
+  background: #B3B3B3;
+  color: #000;
+  text-align: center;
+  padding: 10px 0 10px 0;
 }
