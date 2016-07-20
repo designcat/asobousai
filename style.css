@@ -9,9 +9,12 @@ h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
 }
-li {
+li,a {
   list-style: none;
   text-decoration: none;
+}
+a {
+  color: #000;
 }
 header {
   background-color: rgba(255, 255, 255, 0.5);
@@ -61,7 +64,7 @@ header {
 
 .general {
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -248,4 +251,16 @@ footer {
   color: #000;
   text-align: center;
   padding: 10px 0 10px 0;
+}
+
+.goTop__button {
+  width: 80%;
+  margin: 0 auto;
+  min-width: 1080px;
+  text-align: right;
+}
+
+.goTop__button img {
+  position: fixed;
+  bottom: 20px;
 }

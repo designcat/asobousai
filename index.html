@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="./main.js"></script>
+    <script src="./smooth-scroll.min.js"></script>
   </head>
   <body onload="initialize();">
     <header>
@@ -15,7 +16,7 @@
       </h1>
       <div class="menu">
         <div class="menu__item">
-          概要
+          <a href="#general" data-scroll>概要</a>
         </div>
         <div class="menu__item">
           プログラム
@@ -31,7 +32,7 @@
     <section class="top">
       <img src="./images/asobousai_top_frontlogo.png" />
     </section>
-    <section class="general">
+    <section class="general" id="general">
       <h1 class="general__concept">自分の身は遊んで守れ！</h1>
       <h2 class="general__catchcopy">きっとあなたも体感したくなる、下田で遊ぶ防災フェスティバル</h2>
       <p class="general__description">
@@ -132,5 +133,12 @@
         下田遊ぼう祭2016実行委員会
       </p>
     </footer>
+    <div class="goTop__button">
+      <a href="#" data-scroll><img src="./images/gototop_icon.png" /></a>
+    </div>
+    <script>
+	    // スムーススクロールを起動する
+	    smoothScroll.init() ;
+    </script>
   </body>
 </html>
