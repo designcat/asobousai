@@ -1,10 +1,11 @@
 html {
   font-size: 62.5%;
   font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  max-width: 640px;
+  width: 100%;
+  margin: 0;
 }
-body {
-  min-width: 900px;
-}
+
 h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
@@ -14,26 +15,32 @@ li,a {
   list-style: none;
   text-decoration: none;
 }
+
 a {
   color: #000;
-
 }
+
+body {
+  width: 100%;
+}
+
 header {
   background-color: rgba(255, 255, 255, 0.5);
   border-top: solid 6px yellow;
-  position: fixed;
   top: 0;
   left: 0;
+  position: fixed;
   z-index: 1;
   font-size: 1.2rem;
   width: 100%;
-  min-width: 900px;
 }
+
 .header__title {
   margin: 10px 0 0 10px;
-  display: inline-block;
+  display: none;
   clear: both;
 }
+
 .toggle {
   display: none;
 }
@@ -41,6 +48,7 @@ header {
   float: right;
 }
 .menu__item {
+  display: none;
   float: left;
   font-size: 1.4rem;
   font-weight: bold;
@@ -55,7 +63,7 @@ header {
 }
 
 .top {
-  height: 90%;
+  height: 400px;
   width: 100%;
   position: relative;
   background: url(./images/asobousai_top_twice.png);
@@ -67,32 +75,34 @@ header {
 .top img {
   display: block;
   margin: 0 auto;
-  width: 40%;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 120px;
+  width: 60%;
 }
 
 .general {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
   margin-bottom: 50px;
 }
 
 .general__concept {
-  font-size: 3.8rem;
+  font-size: 2.0rem;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 .general__catchcopy {
-  font-size: 2.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
+  margin: 0 auto;
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  width: 90%;
 }
 
 .general__description {
   margin: 0 auto;
-  width: 80%;
-  font-size: 1.7rem;
+  width: 90%;
+  font-size: 1.6rem;
 }
 .date {
   margin-top: 30px;
@@ -100,24 +110,22 @@ header {
 .date__title {
   color: #666;
   font-weight: normal;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .date__detail {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 15px;
 }
 
 .general__goDetail {
   width: 90%;
-  min-width: 900px;
   color: #2A9CC9;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   display: block;
-  text-align: right;
-  padding-right: 50px;
-  text-decoration: underline;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .program {
@@ -143,7 +151,6 @@ header {
 }
 .contents:first-child {
   margin-right: 4.5%;
-
 }
 .contents:last-child {
   margin-left: 4.5%;
@@ -152,7 +159,6 @@ header {
   font-size: 2.2rem;
   font-weight: bold;
   padding-left: 20px;
-  display: inline-block;
 }
 
 .tsumamare {
@@ -170,14 +176,12 @@ header {
 }
 
 .event__goDetail {
-  width: 100%;
-  min-width: 900px;
+  width: 90%;
   color: #E0201A;
   font-size: 1.7rem;
   display: block;
   text-align: right;
   margin-top: 10px;
-  padding-right: 50px;
   text-decoration: underline;
 }
 
@@ -195,8 +199,7 @@ header {
   padding-top:5px;
 }
 .booth__goDetail {
-  width: 100%;
-  min-width: 900px;
+  width: 90%;
   color: #E0201A;
   font-size: 1.7rem;
   display: block;
@@ -205,64 +208,12 @@ header {
   text-decoration: underline;
 }
 
-.petapeta__thumbnail {
-
+.contents__thumbnail {
+  width: 90%;
   height: 180px;
-  margin: 5%;
-  background: url(./images/petapeta.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
+  padding: 5%;
 }
 
-.tsumamare__thumbnail {
-
-  height: 180px;
-  margin: 5%;
-  background: url(./images/fox.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.deco__thumbnail {
-
-  height: 180px;
-  margin: 5%;
-  background: url(./images/deco.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.nigemap__thumbnail {
-
-  height: 180px;
-  margin: 5%;
-  background: url(./images/nigemap.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.dronebird__thumbnail {
-
-  height: 180px;
-  margin: 5%;
-  background: url(./images/dronebird.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.mappingparty__thumbnail {
-  height: 180px;
-  margin: 5%;
-  background: url(./images/mappingparty.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
 .joinEvent {
   background-color: #E0201A;
   font-size: 2rem;
@@ -287,18 +238,15 @@ header {
 
 .access__goDetail {
   width: 90%;
-  min-width: 900px;
   color: #2A9CC9;
   font-size: 1.7rem;
   display: block;
   text-align: right;
-  padding-right: 50px;
   text-decoration: underline;
 }
 
 .sponsor {
   width: 80%;
-  min-width: 900px;
   background-color: #E6E6E6;
   color: #999999;
   margin: 0 auto;
@@ -319,8 +267,6 @@ footer {
 .goTop__button {
   width: 80%;
   margin: 0 auto;
-  min-width: 900px;
-  text-align: right;
 }
 
 .goTop__button img {
