@@ -72,6 +72,18 @@ header {
   padding-bottom: 15%;
 }
 
+.breadCrumb{
+  font-size: 12px;
+  height: 20px;
+  padding-top: 85px;
+  padding-left: 90px;
+
+}
+
+.breadCrumb a{
+  color: #2A9CC9;
+}
+
 .general {
   text-align: center;
   padding-top: 50px;
@@ -126,6 +138,105 @@ header {
   background-size: contain;
   background-position: center center;
 }
+
+.program__page{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.program__event{
+  margin-bottom: 30px;
+}
+
+.program__contents{
+  display: table;
+  border-spacing: 2em 10px;
+  padding: 12px 12px 0 12px;
+  border: 1px solid #ddd;
+  width: 85%;
+  border-radius: 5px;
+  margin: 20px auto 0;
+}
+
+.program__petapeta {
+  display: table-cell;
+  height: 180px;
+  margin: 5%;
+  background: url(./images/petapeta.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__kitsune{
+  display: table-cell;
+  height: 180px;
+  margin: 5%;
+  background: url(./images/fox.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__escapeMap{
+  display: table-cell;
+  height: 180px;
+  margin: 5%;
+  background: url(./images/nigemap.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__dronebird{
+  display: table-cell;
+  height: 180px;
+  margin: 5%;
+  background: url(./images/dronebird.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__mappingparty{
+  display: table-cell;
+  height: 180px;
+  margin: 5%;
+  background: url(./images/mappingparty.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__sugoiBousai{
+  display: table-cell;
+  height: 180px;
+  margin: 5%;
+  background: url(./images/deco.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+
+
+.program__box{
+display: table-cell;
+width: 60%;
+}
+
+.progmram__title{
+  font-size: 2rem;
+}
+
+.program__who{
+  font-size: 1.5rem;
+
+}
+
+
 .event {
   width: 80%;
   margin: 0 auto;
@@ -285,6 +396,7 @@ header {
   margin-bottom: 20px;
 }
 
+
 .access__goDetail {
   width: 90%;
   min-width: 900px;
@@ -294,6 +406,29 @@ header {
   text-align: right;
   padding-right: 50px;
   text-decoration: underline;
+}
+
+.access__page{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-top: 50px;
+
+}
+
+.access__map{
+  margin:20px 0 20px 0;
+}
+
+.access__howToGo{
+  font-size: 1.1rem;
+
+}
+
+.access__description{
+  margin-top: 20px;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
 }
 
 .sponsor {
@@ -307,13 +442,18 @@ header {
   text-align: center;
   padding: 20px 0 20px 0;
 }
+.sponsor:hover {
+  cursor: pointer;
+  background-color: #888;
+}
 
 footer {
   width: 100%;
+  height: 50px;
   background: #B3B3B3;
   color: #000;
   text-align: center;
-  padding: 10px 0 10px 0;
+  padding: 15px 0 10px 0;
 }
 
 .goTop__button {
@@ -326,4 +466,152 @@ footer {
 .goTop__button img {
   position: fixed;
   bottom: 20px;
+}
+
+
+.about{
+  text-align: left;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.about__concept {
+  font-size: 3.8rem;
+  font-weight: bold;
+  border-bottom: 3px solid yellow;
+}
+
+
+
+.about__catchcopy {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.about__description {
+  margin-top: 20px;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.about__page{
+  margin-bottom: 50px;
+}
+
+.about__description b{
+  font-size: 2rem;
+}
+.about__description a{
+    color: #2A9CC9;
+}
+
+.about__attention{
+  font-size: 1.5rem;
+}
+
+
+.about__list{
+  margin: 10px 0 50px 20px;;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+
+.date {
+  margin-top: 30px;
+}
+.date__title {
+  color: #666;
+  font-weight: normal;
+  font-size: 1.7rem;
+}
+
+.date__detail {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+
+.5w1h__info{
+  margin-top: 20px;
+}
+
+.TNXsposor__list img{
+  width: 15%;
+  margin:auto 20px auto 0;
+
+}
+
+
+.TNXsposor__list{
+  margin: 20px 0 50px 0;
+}
+
+.TNXsposor__contents{
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+table strong{
+  font-size: 2.5rem;
+}
+
+table{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  width:80%;
+  margin: 0 auto;
+}
+tr{
+  height: 50px;
+  vertical-align:top;
+}
+
+th{
+  color: gray;
+  width:15%;
+  vertical-align:top;
+}
+
+
+
+.topic{
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 3px solid yellow;
+}
+
+.topic2{
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 3px solid yellow;
+}
+
+
+.download{
+  padding: 12px 12px 0 12px;
+  margin: 0 0 50px;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+  width: 400px;
+  border-radius: 5px;
+  height: 100px;
+}
+.download a{
+  color: #2A9CC9;
+}
+.download__text{
+  font-size: 1.3rem;
+}
+
+.download img{
+  width: 80px;
+  float: left;
+  padding-right: 10px;
 }
