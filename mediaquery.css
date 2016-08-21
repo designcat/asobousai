@@ -509,8 +509,16 @@ footer {
   background: #B3B3B3;
   color: #000;
   text-align: center;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
 }
+
+
+
+.footer__link a{
+  color: white;
+}
+
+
 
 .goTop__button {
   width: 80%;
