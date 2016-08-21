@@ -84,6 +84,21 @@ header {
   color: #2A9CC9;
 }
 
+.type{
+  background: url(./images/background_pattern2.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center center;
+}
+
+.type__inner{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto 50px;
+  border-radius: 5px;
+
+}
+
 .general {
   text-align: center;
   padding-top: 50px;
@@ -456,7 +471,8 @@ width: 60%;
   width: 80%;
   margin: 0 auto;
   padding-bottom: 20px;
-  margin-top: 50px;
+  padding-top: 30px;
+  margin-top: 10px;
 
 }
 
