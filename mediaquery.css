@@ -62,6 +62,10 @@ header {
   padding: 20px 20px 20px 20px;
 }
 
+.breadCrumb{
+  display: none;
+}
+
 .top {
   height: 400px;
   width: 100%;
@@ -142,6 +146,114 @@ header {
   background-size: contain;
   background-position: center center;
 }
+
+
+.program__page{
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-top: 50px
+}
+
+.program__page a{
+  color: #2A9CC9;
+}
+
+.program__event{
+  margin-bottom: 30px;
+}
+
+.program__contents{
+  background-color: #fff;
+  display: table;
+  border-spacing: 2em 10px;
+  padding: 20px 12px 20px 12px;
+  border: 1px solid #ddd;
+  width: 85%;
+  border-radius: 5px;
+  margin: 20px auto 0;
+}
+
+.program__petapeta {
+  height: 180px;
+  margin: 5%;
+  background: url(./images/petapeta.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__kitsune{
+  height: 180px;
+  margin: 5%;
+  background: url(./images/fox.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__escapeMap{
+  height: 180px;
+  margin: 5%;
+  background: url(./images/nigemap.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__dronebird{
+  height: 180px;
+  margin: 5%;
+  background: url(./images/dronebird.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__mappingparty{
+  height: 180px;
+  margin: 5%;
+  background: url(./images/mappingparty.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__sugoiBousai{
+  height: 180px;
+  margin: 5%;
+  background: url(./images/deco.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+.program__food{
+
+  height: 180px;
+  margin: 5%;
+  background: url(./images/food.JPG);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center center;
+}
+
+
+.program__box{
+width: 100%;
+}
+
+.progmram__title{
+  font-size: 2rem;
+}
+
+.program__who{
+  font-size: 1.5rem;
+
+}
+
+
+
 .event {
   width: 80%;
   margin: 0 auto;
@@ -351,6 +463,27 @@ header {
     color: #2A9CC9;
 }
 
+
+.access__page{
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+.access__map{
+  margin:20px 0 20px 0;
+}
+
+.access__howToGo{
+  font-size: 1.1rem;
+
+}
+
+.access__description{
+  margin-top: 20px;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
 .sponsor {
   width: 80%;
   background-color: #E6E6E6;
@@ -382,10 +515,21 @@ footer {
 
 
 
+.about{
+  background-image:
+  text-align: left;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 95%;
+}
 
 
+.about__description {
 
-
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
 
 
 .date__detail2 {
@@ -423,24 +567,25 @@ table{
   padding-top: 40px;
   padding-bottom: 10px;
   font-size: 1.5rem;
-  width:80%;
+  width:95%;
   margin: 0 auto;
 }
 tr{
   height: 50px;
   vertical-align:top;
+  text-align: left;
 }
 
 th{
   color: gray;
-  width:15%;
+  width:20%;
   vertical-align:top;
 }
 
 
 
 .topic{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   border-bottom: 3px solid yellow;
 }
@@ -452,7 +597,7 @@ th{
 }
 
 .topic3{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   border-bottom: 3px solid #db2216;
 }
@@ -460,10 +605,10 @@ th{
 
 .download{
   padding: 12px 12px 0 12px;
-  margin: 0 0 50px;
+  margin: 0 0 50px 0;
   border: 1px solid #ddd;
   word-wrap: break-word;
-  width: 400px;
+
   border-radius: 5px;
   height: 100px;
 }
@@ -471,11 +616,18 @@ th{
   color: #2A9CC9;
 }
 .download__text{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .download img{
   width: 80px;
   float: left;
   padding-right: 10px;
+}
+
+.bounty{
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
 }
