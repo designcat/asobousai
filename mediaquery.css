@@ -128,8 +128,16 @@ header {
   text-align: center;
 }
 
+.general__goDetail a{
+    color: #2A9CC9;
+}
+
+.general__goDetail a:visited{
+    color: #2A9CC9;
+}
+
 .program {
-  background: url(./images/backbround_pattern.png);
+  background: url(./images/background_pattern2.png);
   background-repeat: repeat-y;
   background-size: contain;
   background-position: center center;
@@ -185,6 +193,10 @@ header {
   text-decoration: underline;
 }
 
+.event__goDetail a:visited {
+    color: #E0201A;
+}
+
 .booth {
   width: 80%;
   margin: 0 auto;
@@ -208,6 +220,14 @@ header {
   text-decoration: underline;
 }
 
+.booth__goDetail a {
+    color: #E0201A;
+}
+
+.booth__goDetail a:visited {
+    color: #E0201A;
+}
+
 .contents__thumbnail {
   width: 90%;
   height: 180px;
@@ -223,6 +243,14 @@ header {
   text-align: center;
   padding: 15px 0 15px 0;
   text-decoration: underline;
+}
+
+.joinEvent a{
+    color: #fff;
+}
+
+.joinEvent a:visited{
+    color: #fff;
 }
 
 .access {
@@ -243,6 +271,14 @@ header {
   display: block;
   text-align: right;
   text-decoration: underline;
+}
+
+.access__goDetail a{
+    color: #2A9CC9;
+}
+
+.access__goDetail a:visited{
+    color: #2A9CC9;
 }
 
 .sponsor {
@@ -272,4 +308,104 @@ footer {
 .goTop__button img {
   position: fixed;
   bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.date__detail2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+
+.5w1h__info{
+  margin-top: 20px;
+}
+
+.TNXsposor__list img{
+  width: 15%;
+  margin:auto 20px auto 0;
+
+}
+
+
+.TNXsposor__list{
+  margin: 20px 0 50px 0;
+}
+
+.TNXsposor__contents{
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+table strong{
+  font-size: 2.5rem;
+}
+
+table{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  width:80%;
+  margin: 0 auto;
+}
+tr{
+  height: 50px;
+  vertical-align:top;
+}
+
+th{
+  color: gray;
+  width:15%;
+  vertical-align:top;
+}
+
+
+
+.topic{
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 3px solid yellow;
+}
+
+.topic2{
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 3px solid yellow;
+}
+
+.topic3{
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 3px solid #db2216;
+}
+
+
+.download{
+  padding: 12px 12px 0 12px;
+  margin: 0 0 50px;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+  width: 400px;
+  border-radius: 5px;
+  height: 100px;
+}
+.download a{
+  color: #2A9CC9;
+}
+.download__text{
+  font-size: 1.3rem;
+}
+
+.download img{
+  width: 80px;
+  float: left;
+  padding-right: 10px;
 }
