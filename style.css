@@ -491,6 +491,23 @@ width: 60%;
   margin-bottom: 20px;
 }
 
+.volunteer{
+  width: 80%;
+  min-width: 900px;
+  background-color: #96c21c;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.volunteer:hover {
+  cursor: pointer;
+  background-color: #588c00;
+}
+
 .sponsor {
   width: 80%;
   min-width: 900px;
