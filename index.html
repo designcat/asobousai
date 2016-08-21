@@ -3,20 +3,40 @@
   <head>
     <title>遊ぼう祭2016</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="./normalize.css" type="text/css" />
     <link rel="stylesheet" href="./mediaquery.css" type="text/css" media="all and (max-width: 640px)" />
     <link rel="stylesheet" href="./style.css" type="text/css" media="screen and (min-width: 640px)" />
+    <link rel="stylesheet" href="./slicknav.css" />
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyCg6LjS5o97v8_3WitjqkVdvJ483F943vk"></script>
+    <script src="./jquery.slicknav.js"></script>
+    <script>
+    $(function(){
+      $('#menuSP').slicknav({
+	       label: '',
+	      duration: 300,
+         });
+    });
+    </script>
     <script src="./smooth-scroll.min.js"></script>
     <script src="./main.js"></script>
-    <meta charset="utf-8">
-
   </head>
   <body onload="initialize();">
     <header>
       <!-- <h1 class="header__title">
         下田遊ぼう祭2016
       </h1> -->
+      <ul id="menuSP">
+       <li><a class="scroll" href="./index.html">ホーム</a></li>
+       <li><a class="scroll" href="./about.html">概要</a></li>
+        <li><a class="scroll" href="./access.html">アクセス</a></li>
+         <li><a href="./program.html">プログラム</a></li>
+         <li><a class="scroll" href="./forSponsor.html">企業の方へ</a></li>
+          <li><a class="scroll" href="./application.html">事前予約・お問合せ</a></li>
+       </ul>
       <div class="toggle"><a href="#">menu</a></div>
       <div class="menu">
         <div class="menu__item">

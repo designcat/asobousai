@@ -61,7 +61,15 @@ header {
 .menu__item a {
   padding: 20px 20px 20px 20px;
 }
+/*
+.type{
+  background-image: url(./images/background_pattern2.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center center;
+}
 
+*/
 .breadCrumb{
   display: none;
 }
@@ -152,7 +160,7 @@ header {
   width: 95%;
   margin: 0 auto;
   padding-bottom: 20px;
-  margin-top: 50px
+  margin-top: 0px
 }
 
 .program__page a{
@@ -160,6 +168,7 @@ header {
 }
 
 .program__event{
+  padding-top: 15px;
   margin-bottom: 30px;
 }
 
@@ -468,7 +477,7 @@ width: 100%;
   width: 95%;
   margin: 0 auto;
   padding-bottom: 20px;
-  margin-top: 50px;
+
 }
 .access__map{
   margin:20px 0 20px 0;
@@ -518,7 +527,7 @@ footer {
 .about{
   background-image:
   text-align: left;
-  padding-top: 50px;
+  padding-top: 15px;
   margin: 0 auto;
   width: 95%;
 }
@@ -599,7 +608,7 @@ th{
 .topic3{
   font-size: 2rem;
   font-weight: bold;
-  border-bottom: 3px solid #db2216;
+  border-bottom: 3px solid white;
 }
 
 
