@@ -152,21 +152,91 @@ header {
 .event__contents {
   margin-top: 5px;
 }
+
+.contents {
+  display: inline-block;
+  background: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*
 .contents {
   display: inline-block;
   background: #fff;
   width: 30%;
 }
+
 .contents:first-child {
   margin-right: 4.5%;
 }
 .contents:last-child {
   margin-left: 4.5%;
 }
+*/
 .contents__title {
   font-size: 2.2rem;
   font-weight: bold;
   padding-left: 20px;
+}
+
+
+.petapeta__thumbnail {
+  height: 180px;
+  margin: 5%;
+  background: url(./images/petapeta.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.tsumamare__thumbnail {
+
+  height: 180px;
+  margin: 5%;
+  background: url(./images/fox.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.deco__thumbnail {
+
+  height: 180px;
+  margin: 5%;
+  background: url(./images/deco.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.nigemap__thumbnail {
+
+  height: 180px;
+  margin: 5%;
+  background: url(./images/nigemap.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.dronebird__thumbnail {
+
+  height: 180px;
+  margin: 5%;
+  background: url(./images/dronebird.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.mappingparty__thumbnail {
+  height: 180px;
+  margin: 5%;
+  background: url(./images/mappingparty.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .tsumamare {
