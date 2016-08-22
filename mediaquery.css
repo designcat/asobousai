@@ -252,12 +252,14 @@ header {
 width: 100%;
 }
 
-.progmram__title{
+.program__title{
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .program__who{
   font-size: 1.5rem;
+  margin-bottom: 10px;
 
 }
 
