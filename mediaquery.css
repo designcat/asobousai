@@ -274,6 +274,28 @@ width: 100%;
   margin-top: 5px;
 }
 
+.contents__link{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contents__link a{
+  color: #E0201A;
+}
+
+.petapeta__link{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.petapeta__link a{
+  color: #E0201A;
+}
+
 .contents {
   display: inline-block;
   background: #fff;

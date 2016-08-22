@@ -262,15 +262,19 @@ header {
 .program__box{
 display: table-cell;
 width: 60%;
+font-size: 1.5rem;
 }
 
-.progmram__title{
+.program__title{
   font-size: 2rem;
+  font-weight: bold;
+
 }
 
 .program__who{
   font-size: 1.5rem;
-
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 
@@ -316,6 +320,29 @@ width: 60%;
   text-align: right;
   padding: 10px 20px 10px 0;
 }
+
+.contents__link{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contents__link a{
+  color: #E0201A;
+}
+
+.petapeta__link{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.petapeta__link a{
+  color: #E0201A;
+}
+
 
 .event__goDetail {
   width: 100%;
