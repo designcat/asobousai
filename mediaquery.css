@@ -68,7 +68,6 @@ header {
   background-size: contain;
   background-position: center center;
 }
-
 */
 .breadCrumb{
   display: none;
@@ -565,8 +564,6 @@ footer {
   position: fixed;
   bottom: 20px;
 }
-
-
 
 .about{
   background-image:
