@@ -663,6 +663,8 @@ footer {
   margin-top: 20px;
 }
 
+
+
 .TNXsposor__list img{
   width: 15%;
   margin:auto 20px auto 0;
@@ -690,6 +692,10 @@ table{
   font-size: 1.5rem;
   width:80%;
   margin: 0 auto;
+}
+
+table a{
+color: #2A9CC9;
 }
 tr{
   height: 50px;
